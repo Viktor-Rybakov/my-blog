@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>
+    {% if page.url != '/' %}{{ title }} — {% endif %}{{ data.title }}
+  </title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ data.description }}">
+
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+  {{ content | safe }}
+  <script type="module" src="/scripts/index.js"></script>
+</body>
+</html>
