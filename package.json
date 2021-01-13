@@ -5,7 +5,7 @@
     "lint": "editorconfig-checker",
     "lighthouse": "npx lhci autorun",
     "stylesMinify": "rm -rf dist/styles && npx postcss src/styles/index.css --use postcss-import --use postcss-media-minmax --use postcss-csso --no-map --output dist/styles/index.css",
-    "build": "npm run start && npm run stylesMinify"
+    "build": "eleventy && npm run stylesMinify"
   },
   "browserslist": [
     "last 2 version",
