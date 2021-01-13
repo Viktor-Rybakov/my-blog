@@ -14,7 +14,6 @@
     "iOS >= 12"
   ],
   "devDependencies": {
-    "@lhci/cli": "^0.6.1",
     "@11ty/eleventy": "^0.11.1",
     "editorconfig-checker": "^3.3.0",
     "html-minifier": "^4.0.0",
