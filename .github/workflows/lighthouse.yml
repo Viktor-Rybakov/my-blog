@@ -1,4 +1,4 @@
-name: Build project and run Lint and Lighthouse CI
+name: Build project and run Lighthouse CI
 
 on:
   pull_request:
@@ -7,19 +7,7 @@ on:
       - master
 
 jobs:
-  lint:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run lint
-  lighthouseci:
+  lighthouse-check:
     runs-on: ubuntu-latest
     strategy:
       matrix:
