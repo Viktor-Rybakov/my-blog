@@ -1,4 +1,4 @@
-name: Build project and run HTML validation
+name: HTML validation
 
 on:
   pull_request:

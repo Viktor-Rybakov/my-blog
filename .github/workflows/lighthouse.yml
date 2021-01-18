@@ -1,4 +1,4 @@
-name: Build project and run Lighthouse CI
+name: Lighthouse
 
 on:
   pull_request:
