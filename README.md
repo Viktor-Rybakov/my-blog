@@ -1,4 +1,8 @@
 ## О проекте
+[![](https://github.com/Viktor-Rybakov/my-blog/workflows/Lighthouse/badge.svg?branch=master)](https://github.com/Viktor-Rybakov/my-blog/actions?query=workflow%3ALighthouse)
+[![HTML](https://github.com/Viktor-Rybakov/my-blog/workflows/HTML/badge.svg)](https://github.com/Viktor-Rybakov/my-blog/actions?query=workflow%3AHTML)
+[![](https://github.com/Viktor-Rybakov/my-blog/workflows/Editor%D0%A1onfig/badge.svg)](https://github.com/Viktor-Rybakov/my-blog/actions?query=workflow%3AEditor%D0%A1onfig)
+
 Это проект личного блога. При создании этого проекта я хочу пробовать и изучать новые для себя технологии разработки, а о чём-то интересном писать статьи.
 
 ## Разработка
