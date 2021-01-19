@@ -1,4 +1,4 @@
-name: HTML validation
+name: HTML
 
 on:
   pull_request:
