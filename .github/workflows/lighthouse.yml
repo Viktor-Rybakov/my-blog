@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci && npm i @lhci/cli@0.6.x
+      - run: npm ci
       - run: npm run build
-      - run: npx lhci autorun
+      - run: npm run lighthouseAudit
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

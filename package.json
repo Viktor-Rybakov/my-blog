@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "eleventy --serve --quiet",
-    "editorconfig": "editorconfig-checker",
+    "lighthouseAudit": "lhci autorun",
     "stylesMinify": "rm -rf dist/styles && npx postcss src/styles/index.css --use postcss-import --use postcss-media-minmax --use postcss-csso --no-map --output dist/styles/index.css",
     "build": "eleventy && npm run stylesMinify"
   },
@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "editorconfig-checker": "^3.3.0",
+    "@lhci/cli": "^0.6.1",
     "html-minifier": "^4.0.0",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
